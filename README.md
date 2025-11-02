@@ -47,3 +47,17 @@ Key Results (In Progress)
     Higher PWM frequencies yield smoother control but increase switching losses.
 
     Energy optimization is achievable through adaptive PWM tuning strategies.
+
+Simulation Methodology:
+
+    In order to get results for the simulation, we start off by utilizing the simulated data results. 
+    
+    We can get this data by accessing GitHub and using the code in MATLAB. 
+    
+    Continuously change the PWM and record the time series data repeatedly for a desired number of times for a dataset.
+    
+    For our purposes, we do 0-300 with 10-second intervals for increments of 10% for the PWM ranging from 1-100. 
+    
+    From here, we can then use the data that we have obtained to complete a derivation. 
+    
+    Refer the the derivation, and utilize the SINDy along with the least squares to then get data modeling functions. 
